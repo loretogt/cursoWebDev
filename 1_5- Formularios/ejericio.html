@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <title> Tablas </title>
+        <meta charset="uft-8">
+        
+    </head>
+    <body>
+        <h1> Formulario de contacto</h1>
+        <form action="..." method="post" > 
+            <label for="nombre"> Nombre:  </label>
+            <input id ="nombre" type="text" name="nombre" required > 
+            <br> 
+            <label for="apellidos"> Apellidos:  </label>
+            <input id ="apellidos" type="text" name="apellidos" required > 
+
+            <br> <br> 
+            <label for="genero"> Género:  </label>
+            <input id= "genero" type="radio" name="genero" value="Hombre" checked> Hombre
+            <input id= "genero" type="radio" name="genero" value="Mujer"> Mujer
+
+            <br><br>
+            <label for="email"> Email:  </label>
+            <input id ="email" type="text" name="email" required > 
+            <br> 
+            <label for="telefono"> Telefono:  </label>
+            <input id ="telefono" type="text" name="telefono" required > 
+
+            <br><br>
+            <label for="contacto"> Contactar Mediante:  </label>
+            <br>
+            <input id= "contacto" type="checkbox" name="contacto" value="Email" > Email
+            <br>
+            <input id= "contacto" type="checkbox" name="contacto" value="Telefono" > Telefono
+
+            <br><br>
+            <label for="motivo"> Motivo de consulta:  </label>
+            <br>
+            <select id= "motivo" name="selection"> 
+                    <option value="Presupuesto"> Presupuesto</option>
+                    <option value="Informacion"> Informacion</option>    
+                    <option value="Reparaciones"> Reparaciones</option>
+            </select>
+
+            <br><br>
+            <label for="consulta"> Consulta:  </label>
+            <br>
+            <textarea id= "consulta" name="consulta" cols="80" rows="10"> </textarea>
+
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        
+    </body>
+</htm>

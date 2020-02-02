@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <title> Formularios </title>
+        <meta charset="uft-8">
+        
+    </head>
+    <body>
+        <h1> Formularios</h1>
+        
+        <form action="http://direccion_a_donde_se_esnvie.con" method="post">
+            <input type="text" name="apellidos" value="Ortega" maxlengt="25" disabled required readonly> 
+            <br>
+            
+            <label for="username"> Username</label>
+            <input id ="username" type="text" name="username" required > 
+            
+            <br>
+            <label for ="password">Password </label>
+            <input id= "password" type="password" name="password" required>
+            
+            <br>
+            <input type="submit" value="login">
+            
+            <h4> Checkbox </h4>
+            <input type="checkbox" name="mascota" value="perro"> Perro
+            <br>
+            <input type="checkbox" name="mascota" value="gato"> Gato
+            <br>
+            <input type="checkbox" name="mascota" value="otro"> Otro
+            
+            <h4> Radio </h4>
+            <input type="radio" name="TipodePago" value="cretitCad" checked> Credit Cart
+            <br>
+            <input type="radio" name="TipodePago" value="bankTransfer"> Bank Transfer
+            <br>
+            <input type="radio" name="TipodePago" value="paypal"> PayPal
+            
+            <h4> Button</h4>
+            <input type ="button" value="Hi botton">
+            
+             <h4> File</h4>
+            <input type ="file" value="MiFichero">
+            
+            <h4> Textareas</h4>
+            <textarea name="text" cols="50" rows="10"> </textarea>
+            <br>
+            <input type="text" name="texto">
+            
+            <h4> Select</h4>
+            <select name="selection"> 
+                <option value="opcion1"> Opcion 1</option>
+                <option value="opcion2"> Opcion 2</option>    
+                <option value="opcion3"> Opcion 3</option>
+                <option value="opcion4"> Opcion 4</option>
+            </select>
+        </form>
+        
+    </body>
+</htm>
