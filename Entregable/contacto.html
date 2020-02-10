@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacto</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+             <h1> <i class="fas fa-utensils"></i><a href="./index.html"> NekoNeko <i class="fas fa-paw"></i></h1>
+            <nav>
+                <a href="./carta.html"> <i class="fas fa-bars"></i> Carta  </a> &nbsp&nbsp
+                <a href="./ofertas.html"> <i class="fas fa-euro-sign"></i> Ofertas </a>  &nbsp&nbsp
+                <a href="./localizacion.html"> <i class="fas fa-map-marked-alt"></i> Localización </a> &nbsp&nbsp
+                <a href="./contacto.html"> <i class="fas fa-envelope"></i> Contacto </a>   
+            </nav>
+        </header>
+        
+         <div id="contacto">
+            <h2> Si tienes alguna duda:</h2>
+            <form action="http://direccion_a_donde_se_esnvie.con" method="post">
+                
+                <label for="nombre"> Nombe: </label>
+                <input id ="nombre" type="text" name="nombre" required > 
+                <br> 
+                
+                <label for="apellidos"> Apellidos: </label>
+                <input id ="apellidos" type="text" name="apellidos"  > 
+                <br> <br>
+                
+                <label for="mail"> Email:  </label>
+                <input id ="mail" type="text" name="mail"  > 
+                
+                <br>
+                <label for="tlf"> Telefono: </label>
+                <input id ="tlf" type="text" name="tlf"  > 
+                
+                <br><br>
+                <label for="preferencia"> Preferencia de contacto: </label>
+                <br> &nbsp
+                <input type="radio" name="preferencia" value="mail" checked> Email
+                <br>&nbsp
+                <input type="radio" name="preferencia" value="telefono"> Telefono
+                <br><br>
+                
+                <label for="motivo"> Motivo de la consulta</label>
+                <select name="motivo"> 
+                    <option value="opcion1"> Realizar una reserva</option>
+                    <option value="opcion2"> Duda acerca del menú u ofertas</option>    
+                    <option value="opcion3"> Otro motivo de contacto</option>
+                </select>
+                <br><br>
+
+                <label for="consulta"> Consulta: </label>
+                <br>
+                <textarea name="consulta" cols="50" rows="10"> </textarea>
+                <br><br>
+                
+                <input type="submit" value="enviar">
+                
+            </form>
+                
+        </div>
+        
+         <footer>
+             <br>
+            <em>Si quieres disfrutar de una suave comida ven a <i><a href="./localizacion.html">visitarnos</a></i> </em>
+        </footer>
+     
+        
+    </body>
+</html>
