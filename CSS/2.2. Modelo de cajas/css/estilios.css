@@ -1,0 +1,48 @@
+div{
+    background-color: aqua;
+    
+    /*
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 10px;
+    */
+    
+     /* Si queremos decir los 4 a la vez se hace asi en este orden*/ 
+    padding: 100px 50px 75px 10px;
+    
+     /* Podemos decir que el de arriba y abajo solo poniendo solo 2 y lo mismo con derecha e izquierda*/ 
+    
+    /*
+    border-top-color: black;
+    border-top-width: 5px;
+    border-top-style: dashed;
+   
+    /*
+    border-top: 5px dashed blue;
+    border-right: 10px solid red;
+    border-bottom: 2px dotted green;
+    border-left: 8px double purple;
+    
+     tambien se puede juntar todo
+     */
+    border:  5px solid grey;
+    /*
+    border-width: 5px;
+    border-style: solid;
+    border-color: grey;
+    */
+    
+    
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: -50px;
+    /*podemos hacer lo mismo que haciamos con con padding*/
+    
+    margin: 50px auto;
+    
+    width: 300px;     
+    height: 500px;
+    
+    
+}

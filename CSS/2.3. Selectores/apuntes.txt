@@ -1,0 +1,66 @@
+para modificar un "tipo" de etiqueta entero como puede ser div seria:
+	div{
+		las cosas que le queramo hacer 
+	}
+
+también podemos hacerlo a través del  atributo id de html
+	#nombreID{
+		...
+	}
+y con el atributo class que para hacerlo seria 
+	.nombreClase{
+		...
+	}
+
+
+también podemos combinar las cosas 
+	div.nombreClase{
+		tiene que ser div y ser de la clase
+	}
+
+También podemos combinar los 3
+	div#nombreID.Nombreclase{
+		...
+	}
+
+También tenemos lo que se llama selector inviersal que es * 
+	*{
+		...
+	}
+
+Como html se puede organizar como un árbol puedes aplicar el estilo a algo que esta dentro de otro algo, por ejemplo solo las etiquetas 'a' descendientes de 'p'
+Se le aplica a lo hijos, pero también a los nietos y así
+	p a{	
+		el estilo se aplica solo a 'a' 
+	}
+Si solo queremos hacerlo a los hijos seria 
+	p > a{
+	}
+Se puede enrevesar lo que quieras, también puede ser de id o clases
+	p > em > a{
+	}
+
+
+---- 
+Algunos selectores especiales pueden ser 
+
+En una tabla por ejemplo si quieres acceder al primer hijo se hace nombreEtiqueta:frist-child también se puede al ultimo hijo con last-child o al enésimo hijo nth-child(numeroHijo) o odd (impares) even (pares) 
+
+Si queremos que cambie el color cuando se hace una determinada acción, por ejemplo cuando pasamos por encima el cursor
+	etiqueta:hover{...}
+
+todos los selectores se encuentran en esta web: https://www.w3schools.com/cssref/css_selectors.asp
+
+----
+
+CSS funciona como herencia heredan lo que se ha definido de los antecesores pero pueden redefinir las cosas para los hijos
+Se queda con el selector que sea más especifico  
+
+
+
+
+
+
+
+
+
