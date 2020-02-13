@@ -1,0 +1,29 @@
+img{
+	width: 250px; y se rescata pero si todo heigth se deforma 
+	tambien se puede poner promocional 
+}
+
+Para poner esquinas redondeadas
+	border-radius= 50px por ejemplo, si ponemos la mitad de los px de la imagen se hace un círculo
+
+Para añadir un borde
+	border: 20px solid green;
+
+si queremos centrar la imagen:
+	display: block;
+	margin: 0 auto;
+
+Podemos añadir  transparencia
+	opatity: 0.9;
+
+--------LISTAS-------
+
+modificar tipo icono
+	list-style-type: 
+
+Donde empiezan las lineas
+	list-style-positn: insite/outste
+
+Podemos añadir nuestras imágenes como icono
+	list-style-image: url(....);
+

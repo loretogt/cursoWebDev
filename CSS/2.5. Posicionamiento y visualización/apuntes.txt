@@ -1,0 +1,37 @@
+Tenemos elementos de bloque y elementos de linea 
+	Elementos de bloque ocupan toda la pantalla y de linea se ajustan al tamaño del elemento
+	para cambiarlo se pude poner display: line o block
+
+Posicionamiento relativo:
+	position:relative; para cambiarlo
+	top: 10px -> lo que queremos desplazarlo respecto a la criba 
+	también tenemos bottom, left, rigth
+	pueden ser negativo 
+	por ejemplo podemos decir que cuando pasemos el botón por arriba se mueva
+		span: hover{
+			position: relative;
+			bottom: 3px;
+		}
+
+posicionamiento absoluto:
+	definimos de forma exacta donde se encuentra lo que queremos 
+	position: absolute; -> para ponerlo 
+	para saber desde donde contamos el desplazamiento nos referimos al primer elemento no estático padre
+	relativo = no estatico 
+	se la suda el resto de las cosas (se puede poner encima) 
+
+
+Posicionamiento fijo: 
+	a pesar de que bajemos eso sigue se define con el top, bottom...
+	tona el origen como con el absoluto 
+	position: fixed;
+
+Posicionamiento flotante
+	float: left(top...)
+	el resto de las cosas fluyen al rededor de el 
+	si no queremos que no tenga elemento flotantes clear: bottom(donde no queremos que no tenga) 
+
+para poder ocultar elementos 
+	dispay: none
+	visibility: hidden -> es como si siguiese estando pero no se le ve 
+	

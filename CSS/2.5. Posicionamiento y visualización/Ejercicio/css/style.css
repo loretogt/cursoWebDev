@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+#container{
+    margin: 50px auto;
+    width: 600px;
+    height: 600px;
+    border: 10px solid blue;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+.number-box, .cover-box {
+    height: 150px;
+    width: 150px;
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+}
+
+.number-box {
+    background-color: aliceblue;
+    border-color: cadetblue;
+    text-align: center; 
+    font-size: 70px; 
+    line-height: 150px;
+}
+
+.cover-box {
+    background-color: beige;
+    border-color: antiquewhite;
+}
+
+.cover-box:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#one-number, #one-cover {
+    top: 20px;
+    left: 20px;
+}
+
+#two-number, #two-cover {
+    top: 20px;
+    left: 220px;
+}
+
+#three-number, #three-cover {
+    top: 20px;
+    left: 420px;
+}
+
+#four-number, #four-cover {
+    top: 220px;
+    left: 20px;
+}
+
+#five-number, #five-cover {
+    top: 220px;
+    left: 220px;
+}
+
+#six-number, #six-cover {
+    top: 220px;
+    left: 420px;
+}
+
+#seven-number, #seven-cover {
+    top: 420px;
+    left: 20px;
+}
+
+#eight-number, #eight-cover {
+    top: 420px;
+    left: 220px;
+}
+
+#nine-number, #nine-cover {
+    top: 420px;
+    left: 420px;
+}

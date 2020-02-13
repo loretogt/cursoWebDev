@@ -1,0 +1,63 @@
+para cambiar el color de la fuente:
+	color: ...
+
+para cambiar el tipo de fuente:
+	font-family
+	https://fonts.google.com desde google fonts podemos importar fuentes
+		hay que poner el link en el head
+		y te dice que tienes que poner en el font-family
+
+podemos cambiar el tamaño de letra
+	font-size 
+	podemos decirlo con pixeles (px) o con puntos (pt) 
+
+Para podere definir en negrita (o cositas extras del peso)
+	font-weigth 
+
+Para poner cursiva
+	font-style: italic;
+
+Todo en mayusculas, pero menos grandes
+	font-variant: small-caps;
+
+De una sola forma podemos aplicar todo de golpe
+	font: italic small-caps bold 15pt 'font-family'
+	solo es obligatorio el tamaño y el tipo de letra
+
+Alineación
+	text-align: right (...)
+
+Con el interlineado jugamos con 
+	line-height: por ejemplo el interlineado doble es 2em
+
+Para por ejemplo poner una linea
+	text-decoration: underline
+
+Para transformar el texto
+	text-transform
+
+para jugar con la identacion 
+	text-indent (identación de la primera linea)
+
+Para hacer que el texto se coloque con la imagen, en la imagen:
+	vertical-align
+
+Selectores especiales de enlaces
+	text-decoration: none; 	quitar la linea
+
+	a:hover{
+		que al pasar el cursor haga algo 
+	}
+
+	a:link{
+		sino lo he visitado 
+	}
+
+	a:visited{
+		si si que lo he visitado
+	}
+	
+	a:active{
+		mientras que yo estoy pulsando 
+	}
+

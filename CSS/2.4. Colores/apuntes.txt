@@ -1,0 +1,26 @@
+----------COLORES----------
+
+Poner directamente el color que nos lo da.
+	background-color: blue;
+
+A través de hexadecimal
+	background-color: #4F34FF;
+
+A través del código rgb:
+	background-color: rgb(255,255,255);
+
+Para establecer transparencia roba
+	background-color: rgb(255,255,255,0.6);
+
+--------- UNIDADES DE MEDIDA----------
+
+-unidades absolutas:
+	pixeles: px 
+
+-unidades relativas
+	porcentaje = % respecto al padre
+	unidades em -> que quiere decir el tamaño de la letra m (ósea depende del tamaño de la fuente de la caja que lo contiene) 
+	unidades rem -> relativo al tamaño de la fuente raíz
+
+Unidades vw -> tamaño de la ventana 100vW-> toda la ventana
+unidades vh-X tamaño dude la autora 

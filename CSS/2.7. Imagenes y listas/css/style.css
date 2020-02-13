@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body{
+    background-color: darkmagenta;
+}
+
+header{
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    background-color: white;
+}
+
+header > h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: capitalize;
+}
+
+
+header > h1 > i {
+    color: darkmagenta;
+    font-size: 140%;
+    margin-right: 20px;
+}
+
+div#content {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 50px 50px 50px;
+    background-color: white;
+}
+
+div#content > .title {
+    font-variant: small-caps;    
+    margin-bottom: 20px;
+    font-style: italic;
+    border-bottom: 1px solid darkgrey;
+    padding: 10px 5px;
+}
+
+div#content > .main-image{
+    float: left;
+    width: 30%;
+    border: 10px solid darkmagenta;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+div#content > p, div#content > ol {
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+div#content > ol {
+    list-style: lower-greek;
+    list-style-position: inside; 
+}
+
+div#content > ol> li {
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}

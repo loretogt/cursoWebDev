@@ -1,0 +1,30 @@
+Para añadir un border si lo hacemos a la etiqueta table solo lo hace al border general
+para que lo tenga cada una de las celdas  tiene que ser al etiqueta th, td
+
+para que no se hagan dos bordes
+	table{
+		border-collapse:colapse 
+		border-spacing: (los px que queramos de separación horizontal) (px vertical si se quiere distinto);
+	}
+
+En html <caption> info  tabla
+	lo podemos poner abajo  caption-side:bottom;
+
+podemos cambiar tamaños celdas
+	th, td{
+		border:...
+		heigh....
+
+Podemos ver donde se centra
+	text-align
+	vertical-align
+
+Si queremos un pequeño espacio demos añadir padding 
+
+podemos jugar con el color de fondo 
+	si la cabtzera queremos distinta thead>tr{ ...}
+	tbody> tr:nth-child(even){..}
+
+si la entramos en pantalla 
+	margin: 0  auto;
+

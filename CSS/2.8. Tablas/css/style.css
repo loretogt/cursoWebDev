@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: monospace;
+    font-size: 11pt;
+}
+
+body{
+    background-color:  #1428a0
+}
+
+header{
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 50px;
+}
+
+header > img {
+    display: block;
+    margin: 0 auto;
+}
+
+header > .subtitle {
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#content{
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 50px 50px 50px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    caption-side: bottom;
+}
+
+table td, #content > table th {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+table > thead th{
+    background-color: #1428a0;
+    color: white;
+    width: 25%;
+}
+
+table > tbody th {
+    background-color: azure;
+}
+
+table > tbody > tr {
+    border-bottom: 1px solid #999999;
+}
+
+table > tbody > tr:last-child {
+    border-bottom: none;
+}
+
+table > tbody > tr > td:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+table > caption {
+    margin-top: 2em;
+}
+
+table > caption > a, table > caption > a:link, table > caption > a:visited {
+    color: #1428a0;
+    text-decoration: none;
+}
+
+table > caption > a:hover {
+    color: crimson;
+}
