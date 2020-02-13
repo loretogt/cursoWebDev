@@ -1,0 +1,37 @@
+es recomendable que cada uno de las entradas sea un div
+
+form > div>label{
+	display: block;
+	float: left;
+	width: 140px;
+	text-align: right;
+	margin-right: 10px;
+	line-height: 28px;
+}	
+
+form > div> input{
+	width: 200px;
+	pading: 5px 10px;
+	font-size: 16`x;
+	border: ....;
+	borde-radios: 5px;
+}
+
+form > div {
+	margin- bottom: 20 ox;
+}
+
+añadir el :
+form > div > label :: after {
+	content:":";
+}
+
+
+form input:focus{
+	outline:none; quitar el cuadradillo es
+	background-color: ...;
+}
+
+form input [type=password]{
+	....}
+

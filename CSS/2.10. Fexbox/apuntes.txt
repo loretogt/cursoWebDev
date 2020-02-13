@@ -1,0 +1,26 @@
+display: flex;
+
+flex-direction: columna/row y en reverse 
+
+flex-wrap: nowrap -> si no caben en la pantalla si no cabe no se modifica
+		wrap -> se salta a la siguiente linea
+		wrap-reverse
+
+justify-content: centrer; flex-start; space-around; space-between 
+
+align-items: flex-star/ center/ end / baseline
+
+align-comtent: mismos valores esto sirve para ver como se linean las lineas
+
+podemos poner aplicar datos a algo que esta dentro
+	order y ponemos el orden que queramos que aparezca
+	
+Aunque le pongamos un tamaño mas grande no va a crecer tanto, sino que se va a ajustar 
+
+flex-grow cuandocrece respecto  a los otros elementos por defecto es 1
+
+flex-shrink en este caso es decrecer
+
+flex-basisi ancho base 
+
+alinee-sele
