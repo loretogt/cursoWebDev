@@ -1,0 +1,10 @@
+fondo con una imagen
+	background-image
+
+para visualizar eso
+	background-repeat
+	background-position -> donde queremos colocarla 
+
+background-attachment: fixed/scoll
+
+se puede hacer todo de golpe con background

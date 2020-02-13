@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+    background: #914e90;
+    background: -moz-linear-gradient(top, #914e90 0%, #520256 100%);
+    background: -webkit-linear-gradient(top, #914e90 0%,#520256 100%);
+    background: linear-gradient(to bottom, #914e90 0%,#520256 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#914e90', endColorstr='#520256',GradientType=0 );
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px 50px;
+    -webkit-box-shadow: 0 0 50px 5px rgba(50,50,50,0.5);
+    box-shadow: 0 0 50px 5px rgba(50,50,50,0.5);
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header > h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: capitalize;
+}
+
+header > h1 > i {
+    color: darkmagenta;
+    font-size: 140%;
+    margin-right: 20px;
+}
+
+div#content > .title {
+    font-variant: small-caps;    
+    margin-bottom: 20px;
+    font-style: italic;
+    border-bottom: 1px solid darkgrey;
+    padding: 10px 5px;
+}
+
+div#content > .main-image {
+    display: block;
+    width: 40%;
+    border: 10px solid darkmagenta;
+    margin: 0px auto 60px auto;
+    
+    -moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    
+    position: relative;
+    top: 20px;
+    
+    -webkit-box-shadow: 0 0 20px 5px rgba(50,50,50,0.5);
+    box-shadow: 0 0 20px 5px rgba(50,50,50,0.5);
+}
+
+.new-text {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 2em;
+}
+
+.new-text > p, .new-text > ol {
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.new-text > p {
+    text-indent: 2em;
+}
+
+.new-text > ol {
+    list-style: lower-greek;
+    list-style-position: inside; 
+}
+
+.new-text > ol> li {
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}

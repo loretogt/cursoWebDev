@@ -24,3 +24,6 @@ flex-shrink en este caso es decrecer
 flex-basisi ancho base 
 
 alinee-sele
+
+
+https://lenguajecss.com/p/css/propiedades/flexbox
