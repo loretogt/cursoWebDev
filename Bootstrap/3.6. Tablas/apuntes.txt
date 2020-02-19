@@ -1,0 +1,29 @@
+Incorpora valores por defecto para que se vean bien, y tenemos que añadir la clase table para esto, y table-dark si queremos que sea oscura
+
+Para la cabecera: en tr
+	tenemos que indicar la clase thread-dar o thread-light
+
+si queremos que cada fila alterne los colores
+	tenemos que añadir la clase table-striped
+
+Para añadir todos los bordes
+	table-bordered
+	
+Si queremos quitarlos
+	table-borderless
+
+Si queremos que se resalte al pasar el cursor por encima la fila
+	table-hover
+	
+Para hacer una tabla mas pequeña
+	table-sm
+
+Podemos aplicar colores específicos a diferentes lineas, con colores predefinidos que tiene 
+	también se puede aplicar a nivel de celda
+
+Captions por defecto
+
+Podemos crear tablas responsive 
+	table-responsive, se tiene que aplicar sobre un elemento div que contenga la tabla 
+
+Tenemos los breakpoints de antes, por ejemplo queremos que solo sea responsive para diferentes tamaños

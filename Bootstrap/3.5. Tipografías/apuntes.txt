@@ -1,0 +1,36 @@
+Nos da tamaños y cosas por defecto
+
+si queremos añadir un subtitulo añadimos la etiqueta small dentro de la etiqueta de donde queramos hacerle el subtitulo 
+
+Las clases display (del 1 al 4) hace aun más grande las letras 
+
+La clase lead permite modificar la forma en la que visualizamos los párrafos, lo vemos un poco más grande que lo normal 
+
+tenemos etiquetas para los textos:
+	mark-> con un highlight
+	del -> tachar, que va a ser eliminado
+	s-> que ya no es preciso, tachado
+	ins->	que ha sido insertado después, subrayado
+	u-> subrayado
+	small-> un texto mas pequeño
+	strong-> que es mas fuerte, segura
+	em-> en cursiva
+
+abreviaturas:
+	etiqueta abbr para indicar el significado de una abreviatura, entonces si pasamos el texto por encima nos dice que es lo que significa
+
+Blockquotes
+	Añadirmos la clase blockquote
+
+Para añadir la fuente de una cita
+	etiqueta rooter
+	tiene que estar obligatoriamente dentro de la etiqueta blockquotes
+	
+Aligement para alinear
+
+Listas
+	podemos añadir clases para decir como queremos que se visualice una lista
+
+listas inline, ya que usamos listas para los menús que se ven arriba
+	usamos la clase list-inline en ul , y el los li list-inline-item
+

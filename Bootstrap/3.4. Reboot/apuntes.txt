@@ -1,0 +1,9 @@
+Basa su reinicio:
+	para usar mas las medidas más en rem, para que todos los tamaños sean acordes
+	intentan evitar margin-top
+	intenta definir un tipo de funte único en toda la pagina
+	cambia el box-sizing a border-box
+	pone la letra por defecto que sea por defecto del sistema operativo en el que estas
+	modifica tanto las h y p, como las listas
+	en cualquier momento podemos mover lo que se pone por defecto 
+	

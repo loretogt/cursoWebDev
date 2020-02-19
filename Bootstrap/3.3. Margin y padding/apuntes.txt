@@ -1,0 +1,5 @@
+pading, 5 tipos distintos p-1, p-2...
+
+si queremos aplícalo a solo un tipo pl pt tb pr
+
+con el margen es igual pero con una m  

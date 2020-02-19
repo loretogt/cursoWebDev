@@ -1,0 +1,25 @@
+Container
+Container-fluid
+
+responsive-breakpoints 
+	sm, md, lg, xl
+
+Usa el sistema de grid, esta dividido en 12 columnas
+	puedo poner a partir de donde se convierta en columna
+	puedo decir el numero de columnas que ocupe, si superamos el 12 salta a la siguiente fila
+
+col-{}-auto
+
+offsetting 
+	desde donde queremos empezar a comer 
+
+gutters 
+	patting
+
+no gutters 
+	en la row 
+
+podemos decir como se coloquen si sobra espacio 
+	a nivel de vila
+
+podemos definir columnas dentro de columnas
