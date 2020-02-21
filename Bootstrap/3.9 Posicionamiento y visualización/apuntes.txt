@@ -1,0 +1,24 @@
+valores comunes clases:
+	position-static
+	position-relative
+	position-absolute
+	position-fixed
+	position-sticky
+
+flixed-top
+fixed-bottom
+sticky-top
+
+podemos hacer que los personajes sean flotantes
+	float-left/right
+
+Overfloat-outo/hidden
+	con aut si supera el contenido se hace una barra para poder bajar
+
+propiedad display
+	nos permite definir como queremos que se visualizan los elementos
+	se define como d-{value} for xs
+		los values: none, inline, inline-block, block, table, table-cell, table-row, flex, inline-flex	
+	d-{breakpoint}-{value} for sm,md,lg, and xl
+
+ propiedad visibility

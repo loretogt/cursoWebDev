@@ -1,0 +1,52 @@
+Text aligement
+	text-left, center, right, justify
+	podemos usar diferentes puntos de ruptura por tamaño 
+
+Wraping 
+	text-no-wrap -> va a sobrepasar el tamaño sin hacer salto de linea
+	text-trucare -> no salta de linea pero no se sale, se ponen ... 
+	
+text tranform
+	lowercase, uppercase, capitalize
+
+font weight and italic
+	font-eighr-light ...
+	font-italic
+
+Monospace
+	text-monospace
+
+Reset-color
+	calse text-reset
+
+Text decoration
+	text-decoration-none
+
+Colores
+	Hay unos colores fijos -> primary, secondary, success, danger, warning, info, light ...
+	<class="text-primary">ç
+	en realidad se pueden cambiar estos colores, pero  no los veremos
+
+también e pueden cambiar los colores de un enlace
+	si pasamos el cursor por encima se pone un pelin mas oscuro
+
+También se puede cambiar el color de fondo
+	bg-primary, bg-secondary...
+
+Gradite background
+	no lo veremos porque hace "hass" (o algo así escrito)
+------
+Bordes
+	son de un pixel y no se puede cambiar
+	forma aditiva
+		calse border, o border-top, border-left...
+	forma subtractiva
+		si no queremos que tenga decimos border-0, border-top-0...
+
+para el color del border
+	border-primary, border-danger...
+
+si queremos los bordes redondeados 
+	clase rounded, rounded-top... rounded-circle, rounded-pill, rounded-0
+	
+

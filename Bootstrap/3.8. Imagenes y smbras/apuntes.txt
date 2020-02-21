@@ -1,0 +1,15 @@
+Si quereremos que la imagen se adapte al contenedor añadimos la clase omg-fluid, sin llegar a superar el tamaño  de la imagen
+
+Thumbnails un pequeño  marco alrededor
+	calse img-tummbnail
+
+podemos aplicar la clase  rounded con sus variaciones para redondear las esquinas
+
+Sustitución de imgenes
+	text-hide y alplicamos una backgroundd-image, para que los ordenadores lo entienan
+
+Para  sombras
+	clase  shadow-none-> que noten
+		shadow-sm -> una pequeña sombra	
+		shadow-lg -> una sombra mas grande 
+
