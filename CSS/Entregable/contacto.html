@@ -9,65 +9,72 @@
     </head>
     <body>
         <div id="container">
-        <header>
+        <header  class="header">
              <h1 id ="nombreRes"> <i class="fas fa-utensils"></i><a href="./index.html"> NekoNeko <i class="fas fa-paw"></i></h1>
             <nav id ="nav">
-                <a href="./carta.html"> <i class="fas fa-bars"></i> Carta  </a> &nbsp&nbsp
-                <a href="./ofertas.html"> <i class="fas fa-euro-sign"></i> Ofertas </a>  &nbsp&nbsp
-                <a href="./localizacion.html"> <i class="fas fa-map-marked-alt"></i> Localización </a> &nbsp&nbsp
+                <a href="./carta.html"> <i class="fas fa-bars"></i> Carta  </a> 
+                <a href="./ofertas.html"> <i class="fas fa-euro-sign"></i> Ofertas </a>  
+                <a href="./localizacion.html"> <i class="fas fa-map-marked-alt"></i> Localización </a> 
                 <a href="./contacto.html"> <i class="fas fa-envelope"></i> Contacto </a>   
             </nav>
         </header>
         
-         <div id="contacto">
+         <div class="cuerpo" id="contacto">
             <h2> Si tienes alguna duda:</h2>
             <form action="http://direccion_a_donde_se_esnvie.con" method="post">
+                <div id="elemform" id="linea">
+                    <label for="nombre"> Nombe: </label>
+                    <input id ="nombre" type="text" name="nombre" required > 
+                </div>
                 
-                <label for="nombre"> Nombe: </label>
-                <input id ="nombre" type="text" name="nombre" required > 
-                <br> 
+                <div id="elemform" id="linea">
+                    <label for="apellidos"> Apellidos: </label>
+                    <input id ="apellidos" type="text" name="apellidos"  > 
+                </div>
+              
+               <div id="elemform" id="linea">
+                   <label for="mail"> Email:  </label>
+                    <input id ="mail" type="text" name="mail"  >
+                </div>
+                 
+                <div id="elemform" id="linea">
+                     <label for="tlf"> Telefono: </label>
+                    <input id ="tlf" type="text" name="tlf"  > 
+                </div>
                 
-                <label for="apellidos"> Apellidos: </label>
-                <input id ="apellidos" type="text" name="apellidos"  > 
-                <br> <br>
+                <div id="elemform">
+                     <label for="preferencia"> Preferencia de contacto: </label>
+          
+                    <input type="radio" name="preferencia" value="mail" checked> Email
                 
-                <label for="mail"> Email:  </label>
-                <input id ="mail" type="text" name="mail"  > 
+                    <input type="radio" name="preferencia" value="telefono"> Telefono
+                </div>
+               
+                <div id="elemform">
+                     <label for="motivo"> Motivo de la consulta:</label>
+                    <select name="motivo"> 
+                        <option value="opcion1"> Realizar una reserva</option>
+                        <option value="opcion2"> Duda acerca del menú u ofertas</option>    
+                        <option value="opcion3"> Otro motivo de contacto</option>
+                    </select>
+                </div>
                 
-                <br>
-                <label for="tlf"> Telefono: </label>
-                <input id ="tlf" type="text" name="tlf"  > 
-                
-                <br><br>
-                <label for="preferencia"> Preferencia de contacto: </label>
-                <br> &nbsp
-                <input type="radio" name="preferencia" value="mail" checked> Email
-                <br>&nbsp
-                <input type="radio" name="preferencia" value="telefono"> Telefono
-                <br><br>
-                
-                <label for="motivo"> Motivo de la consulta</label>
-                <select name="motivo"> 
-                    <option value="opcion1"> Realizar una reserva</option>
-                    <option value="opcion2"> Duda acerca del menú u ofertas</option>    
-                    <option value="opcion3"> Otro motivo de contacto</option>
-                </select>
-                <br><br>
-
-                <label for="consulta"> Consulta: </label>
-                <br>
-                <textarea name="consulta" cols="50" rows="10"> </textarea>
-                <br><br>
-                
-                <input type="submit" value="enviar">
-                
+                <div id="elemform">
+                    <label for="consulta"> Consulta: </label>
+                    <textarea name="consulta" cols="50" rows="1"> </textarea>
+                </div>
+            
+                <div id="elemform" >
+                    <input id="enviar" type="submit" value="Enviar">
+                </div>
+    
             </form>
                 
         </div>
         
-         <footer>
+         <footer class="pie">
              <br>
-            <em>Si quieres disfrutar de una suave comida ven a <i><a href="./localizacion.html">visitarnos</a></i> </em>
+            <em >Si quieres disfrutar de una suave comida ven a <i><a id="enlacefin" href="./localizacion.html">visitarnos</a></i> </em>
         </footer>
         </div>
         

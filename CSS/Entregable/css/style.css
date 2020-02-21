@@ -10,31 +10,180 @@ body {
     color: #444;
     font-family: 'Roboto', sans-serif;
     width: 1000px;
-    margin: 0 auto;    
+    margin: 0 auto;  
+    
+}
+a{
+    text-decoration: none;
 }
 
 #container{
     background-color: white;
+    width: 1000px;
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.43);
+    
 }
 
 #nav{
     background-color: #444;
-    
+    padding: 5px;
+    text-align:center;
+    font-size: 1.2em;
 }
-a{
+#nav>a:hover{
+   color: crimson;
+}
+
+#nav>a{
+     padding-left: 40px;
+    padding-right: 40px;
+}
+#nombreRes>a{
     color: #444;
     text-decoration: none;
+   
 }
 #nombreRes{
     background-color: white;
     color: #444;
-    font-size: 20pt;
-}
-#nombreRes:hover{
-    color: red;
+    font-size: 40pt;
+    padding: 20px;
+    text-align:center;
 }
 
 #nav>a {
     color: white;
 }
 
+.cuerpo{
+    padding: 30px 60px 0px 60px;
+    text-align: justify;
+}
+
+.pie{
+    text-align: center;   
+    padding:20px;
+    border-top: 2px dotted #444;
+    margin: 20px;
+    color: #444;
+}
+
+#enlacefin{
+    color: crimson;
+}
+
+#imagen{
+    width: 40%;
+    transform: rotate(4deg);
+    margin: 30px;
+    display:  block;
+	margin:  30px auto;
+    border: 10px solid #444;
+    border-radius: 10%;
+    
+}
+
+#info{
+    line-height : 25px;
+}
+#info>h3{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    font-variant: small-caps;
+    text-align:center;
+}
+
+#lista{
+    list-style-type:upper-roman;
+    line-height : 25px;
+}
+
+#nombrecarta{
+    padding: 5px;
+   font-variant: small-caps;
+    font-size: 1.2em;
+    
+}
+.cuerpo>h2{
+    padding: 10px 30px;
+    font-variant: small-caps;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    caption-side: bottom;
+    text-align:center;
+    
+}
+
+table td, #content > table th {
+    padding: 10px 15px;
+    text-align: center;
+    
+}
+
+table > thead th{
+    background-color: crimson;
+    color: white;
+    width: 25%;
+    height: 40px;
+    font-variant: small-caps;
+    font-size: 1.3em;
+
+    
+}
+
+table > tbody > tr {
+    border: 1px solid crimson;
+}
+
+table > tbody > tr:hover {
+    background-color: #ffc2c2;
+}
+
+#mapa{
+    width: 70%;
+    display:  block;
+	margin:  20px auto;
+  
+}
+
+#contacto{
+    line-height : 25px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+
+label{
+   padding-right: 30px;
+}
+
+
+#elemform{
+    padding-bottom: 20px;
+}
+
+
+
+#enviar{
+    display:  block;
+    margin:  0px auto;
+    padding: 7px 20px;
+    border: 1px solid #444;
+    border-radius: 10%;
+    background-color: crimson;
+    color:white;
+   
+    
+}
+
+textarea{
+    border: 1px solid lightgray
+        
