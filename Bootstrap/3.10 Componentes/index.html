@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <div class="container p-5">
+            
+            <form action="#" method="post">
+                
+                <div class="row mb-3">
+                    <div class="form-group col-12 col-md-4">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                    
+                    <div class="form-group col-12 col-md-4">
+                        <label for="apellido1">Primer apellido:</label>
+                        <input type="text" class="form-control" id="apellido1" name="apellido1">
+                    </div>
+                    
+                    <div class="form-group col-12 col-md-4">
+                        <label for="apellido2">Segundo apellido:</label>
+                        <input type="text" class="form-control" id="apellido2" name="apellido2">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="form-group col-12 col-md-6">
+                        <label for="email">Email:</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="email" name="email">
+                            <div class="input-group-append">
+                                <span class="input-group-text">@upm.es</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group col-12 col-md-6">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="text" class="form-control" id="telefono" name="telefono">
+                        <small class="form-text text-primary">Preferiblemente movil.</small>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="form-group col-12">
+                    <label for="motivo">Motivo de la consulta:</label>
+                    <select class="form-control" id="motivo">
+                        <option>Motivo 1</option>
+                        <option>Motivo 2</option>
+                        <option>Motivo 3</option>
+                        <option>Motivo 4</option>
+                        <option>Motivo 5</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="form-group col-12">
+                        <label for="consulta">Consulta:</label>
+                        <textarea class="form-control" id="consulta" rows="5"></textarea>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-outline-primary mr-2">Enviar</button>
+                        <button type="button" class="btn btn-outline-danger ml-2">Cancelar</button>
+
+                    </div>
+                </div>
+                
+            </form>
+            
+        </div>
+        
+        
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>

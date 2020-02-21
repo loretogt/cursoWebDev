@@ -1,0 +1,73 @@
+Los componentes son elementos predefinidos que podemos usar
+
+Alerta
+	calse "alert alert-color"
+	podemos añadir enlaces dentro
+	y añadir mas contenido alert-heading
+
+Badge
+	clase badge badge-color
+	podemos añadirlo dentro de los botones
+	podemos cambiar la forma badge-pill
+
+breadcrum
+
+botones
+	tipo button calse "btn btn-color"
+	podemos solo border color bin-outline-color
+	cambiar temaño btw-lg btm-sm
+	podemosparecer que parezca activo active o desctivado fiable
+	podemos contar vario botones bin-group
+
+Tarjeta
+	clase card
+		imagen
+		div card-body
+			card-title
+			btn
+
+Podemos definir carriles de fotos
+	carouser slide
+
+collapse 
+	
+dropdowns 
+	elementos desplegables
+	varias modificaciones
+
+formularios
+	por cada una de las entradas un div con clase form-group
+	al imout hay que añairle la clase form-control
+
+tenemos los input group
+
+jumbotron
+	tarjetas 
+
+list group
+	para listas un poco mas elaboras
+
+media object
+	combinar una imagen con un texto 
+
+Modal
+	vantanas emergentes
+
+Navs
+	definir diferentes barras de navegación
+
+navbar
+	barras de navegación más avanzadas
+
+pagination
+	para hacer paginas
+
+popovers
+	que al pasar por encima salga un texto
+
+barras de progreso
+
+podemos hacer que un elemento esta cargado  
+
+ 
+	
