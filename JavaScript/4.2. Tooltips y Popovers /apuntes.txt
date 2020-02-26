@@ -1,0 +1,17 @@
+hay que incorporar bootstrap y algunas cosas para que funcione 
+Todo lo podemos encontrar mejor en la web de bootstrap
+
+El codigo de java script hay que añadirlo después de añadir las librerías 
+<script type="application/javasript">
+	$(function () {								Este codigo esta en la documentación de bootrstrap
+  		$('[data-toggle="tooltip"]').tooltip()
+})</scriptz>
+
+podemos añadir más opciones
+	$('[data-toggle="tooltip"]').tooltip({
+		animation : false,
+		delay : 500 (en milisegundos), 
+		y hay muchas mas opciones que nos encontramos en la web
+	})
+
+y lo mismo con los popover

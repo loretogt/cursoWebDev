@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lorem news</title>
+        <meta charset="utf-8">   
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body class="bg-dark">
+          
+        <div class="container p-3 bg-light"> 
+            
+            <div class="row">
+                <div class="col text-center">
+                    <buttom class="btn btn-primary btn-sm" onclick="mostrarTodos()">Mostrar todos</buttom>
+                    <button class="btn btn-warning btn-sm" onclick="ocultarTodos()">Ocultar todos</button>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h4>Lorem ipsum</h4>
+                    <p id="lorem" class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis commodo nisl, vel viverra nibh. Ut pellentesque dolor ut metus varius fringilla. Fusce sollicitudin ut mauris nec maximus. Quisque nec quam non erat iaculis pellentesque. Duis ullamcorper aliquam mauris at scelerisque. Proin id venenatis lectus, sit amet hendrerit erat. Cras vestibulum pharetra finibus. Phasellus pellentesque tempus ex eget ornare. Donec viverra maximus luctus. Morbi nec diam velit. In eu aliquet massa. Aliquam erat volutpat. Etiam odio orci, pharetra quis lobortis nec, pellentesque id eros. Maecenas felis quam, congue nec ornare non, ornare vitae odio. Vivamus venenatis, mauris sed faucibus faucibus, nulla justo laoreet dolor, in facilisis leo dolor eu mi.</p>
+                    <buttom class="btn btn-success btn-sm" onclick="mostrarLorem()">Mostrar</buttom>
+                    <button class="btn btn-danger btn-sm" onclick="ocultarLorem()">Ocultar</button>
+                </div>
+            </div>
+            
+            <div class="row mt-5">                
+                <div class="col-12">
+                    <h4>Mauris ligula</h4>
+                    <p id="mauris" class="content">Mauris ligula urna, dignissim a mollis id, rutrum eu enim. Integer consectetur erat in neque sagittis viverra. Nulla congue, eros eu luctus fermentum, libero dolor vestibulum lacus, eget porta orci erat non elit. Cras condimentum magna id nisi maximus auctor. Nullam rutrum sapien tellus. Duis condimentum nisl in laoreet condimentum. Sed a iaculis magna. Nunc tempor lorem urna, a sodales mauris porttitor sed. Nam non dapibus ante. Donec vitae ipsum eget metus pharetra varius id accumsan felis. Phasellus quis urna et tellus sagittis tristique.</p>
+                    <buttom class="btn btn-success btn-sm" onclick="mostrarMauris()">Mostrar</buttom>
+                    <button class="btn btn-danger btn-sm" onclick="ocultarMauris()">Ocultar</button>
+                </div> 
+            </div>
+            
+            <div class="row mt-5">  
+                <div class="col-12">
+                    <h4>Donec gravida</h4>
+                    <p id="donec" class="content">Donec gravida magna sit amet sapien interdum, tincidunt fermentum eros facilisis. Sed egestas sem leo, ac fermentum nulla commodo sit amet. Fusce nec arcu aliquet, congue leo ac, faucibus nulla. Mauris sed nulla nec est dapibus ullamcorper sit amet eget ipsum. Donec laoreet lacus libero, pretium viverra nunc sagittis quis. Vivamus dapibus risus in euismod tempus. Curabitur eget diam faucibus, ultricies nulla eget, dictum ligula. Aliquam quis fermentum neque. Sed egestas, justo ac varius commodo, augue erat ullamcorper enim, et hendrerit dui nulla id turpis. Nullam ac massa sed metus ornare placerat. Nulla et lorem arcu. Duis varius purus ac arcu porttitor condimentum. Praesent suscipit suscipit viverra. Maecenas mattis molestie dolor, eu tristique tellus luctus ac. Morbi sit amet nisi luctus sem porta bibendum. Curabitur magna ex, aliquam nec consequat ac, condimentum ac purus.</p>
+                    <buttom class="btn btn-success btn-sm" onclick="mostrarDonec()">Mostrar</buttom>
+                    <button class="btn btn-danger btn-sm" onclick="ocultarDonec()">Ocultar</button>
+                </div> 
+            </div>            
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        
+        <script type="application/javascript">
+            function mostrarTodos () {
+                $('.content').slideDown();
+            }
+            
+            function ocultarTodos () {
+                $('.content').slideUp();
+            }
+            
+            function mostrarLorem () {
+                $('#lorem').slideDown();
+            }
+            
+            function ocultarLorem () {
+                $('#lorem').slideUp();
+            }
+            
+            function mostrarMauris () {
+                $('#mauris').slideDown();
+            }
+            
+            function ocultarMauris () {
+                $('#mauris').slideUp();
+            }
+            
+            function mostrarDonec () {
+                $('#donec').slideDown();
+            }
+            
+            function ocultarDonec () {
+                $('#donec').slideUp();
+            }            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+en la web se ve todo
+mostrar y ocultar elementos -> .hide() .show()   .toggle() .sliedUp() .slideToggle() fadeToggle...
+
+.animate() -> para cambiar algunas cosas
